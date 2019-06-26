@@ -246,7 +246,6 @@ if __name__ == "__main__":
     print('명단 완료')
     raw = access_to_table(connect_info = connect_info, uuid=target_child, table = 'perf') #한예준
     # print(raw)
-    print("raw 완료")
     # SaveData.raw_to_LVAn(raw)
     raw_to_data(raw, 'output')
     
