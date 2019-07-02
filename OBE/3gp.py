@@ -15,6 +15,8 @@ r = requests.get(url=download_url, auth=HTTPBasicAuth('admin', 'obe1234'))
 print (r)
 # print(r.filename)
 
+
+
 if r.status_code==200:
     with open('%s.zip' %taskUUID, 'wb') as f:
         f.write(r.content)
