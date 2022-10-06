@@ -1,0 +1,15 @@
+docker run
+openface run
+processed data
+model run
+analysis
+
+
+docker run
+openface run
+processed data
+learning
+model out
+
+
+
